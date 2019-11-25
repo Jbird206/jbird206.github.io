@@ -1,0 +1,118 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: silver;
+}
+
+h2 {
+  font-weight: bold;
+  font-weight: 400;
+  font-size: 500;
+  text-align: center;
+}
+
+ .aboutme {
+  font-style: italic;
+}
+
+
+img.main {
+  align: center;
+}
+
+.important {
+  color: red;
+}
+
+.unimportant {
+  color: blue;
+}
+
+.my-class {
+  margin: 12px;
+  border: 2px solid blue;
+  padding: 4px;
+  clear: both;
+ font-style: italic;
+}
+
+.container {
+    margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #1AE0A3;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .container2 {
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #ACF4D2;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    }
+
+    .container3 {
+      margin-left: auto;
+      padding-left: 5px;
+      padding-right: 5px;
+      background-color: #DC61A3;
+      border: 5px solid #ccc;
+      border-radius: 4px;
+      }
+
+      .container4 {
+        margin: auto;
+        max-width:1175px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #FAEF16;
+        border: 5px solid #ccc;
+        border-radius: 4px;
+        }
+
+    .column {
+  width: 260px;
+  float: left;
+  border: 2px solid purple;
+  padding: 4px;
+  margin: 3px;
+
+}
+
+.column2 {
+width: 440px;
+float: left;
+border: 5px solid violet;
+padding: 4px;
+margin: 3px;
+}
+
+.column3 {
+width: 440px;
+float: left;
+border: 5px
+padding: 4px;
+margin: 3px;
+}
+
+.column4 {
+width: 260px;
+float: right;
+border: 2px solid purple;
+padding: 4px;
+margin: 3px;
+
+}
+
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
